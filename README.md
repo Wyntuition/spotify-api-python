@@ -15,3 +15,7 @@ export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
 ### Save your top artists to a file (short, medium and long term)
 
 `./save-top-artists.sh`
+
+### Save x playlist
+
+`python playlist-contents.py > starred-paged.md`
