@@ -18,4 +18,4 @@ export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
 
 ### Save x playlist
 
-`python playlist-contents.py > starred-paged.md`
+`./save-playlist-tracks.sh`
