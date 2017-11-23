@@ -27,11 +27,11 @@ python3 top-tracks-for-user.py echo ${SPOTIPY_CLIENT_ID} >> top-tracks-<DATE>.md
 #### Save your top artists to a file (short, medium and long term)
 
 ```bash
-./save-top-artists.sh
+./shortcuts/save-top-artists.sh
 ```
 
 #### Save x playlist
 
 ```bash
-./save-playlist-tracks.sh
+./shortcuts/save-playlist-tracks.sh
 ```
