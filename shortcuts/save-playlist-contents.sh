@@ -1,4 +1,4 @@
 
 DATE=`date +%Y-%m-%d`
 
-python playlist-contents.py > starred-$DATE.md
+python3 playlist-contents.py > starred-$DATE.md
