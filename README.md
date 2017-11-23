@@ -1,6 +1,10 @@
 # Spotify API with Spotipy
 
-## Auth in Env Vars
+## Setup
+
+### 1. Setup auth in environment variables
+
+You can set the below environment variables for API calls. Calls that use the client credentials flow will use them and calls that use the authorization code flow will have the id passed first.
 
 ```bash
 export SPOTIPY_CLIENT_ID='your-spotify-client-id'
@@ -8,14 +12,24 @@ export SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
 export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
 ```
 
-### Save your top tracks to a file (short, medium and long term)
+### 2. Try some API calls with the included Python scripts
 
-`python3 top-tracks-for-user.py echo ${SPOTIPY_CLIENT_ID} >> top-tracks-<DATE>.md`
+Install Python3 if you don't have it, and try these examples of some of the scripts.
 
-### Save your top artists to a file (short, medium and long term)
+#### Save your top tracks to a file (short, medium and long term)
 
-`./save-top-artists.sh`
+```bash
+python3 top-tracks-for-user.py echo ${SPOTIPY_CLIENT_ID} >> top-tracks-<DATE>.md`
+```
 
-### Save x playlist
+#### Save your top artists to a file (short, medium and long term)
 
-`./save-playlist-tracks.sh`
+```bash
+./save-top-artists.sh
+```
+
+#### Save x playlist
+
+```bash
+./save-playlist-tracks.sh
+```
