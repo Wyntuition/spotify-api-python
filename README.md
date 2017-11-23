@@ -24,6 +24,8 @@ Install Python3 if you don't have it, as well as these libraries, `pip install s
 
 This calls the Python script, passing the Spotify client ID, and piping the text to the specified file. Once you see what's happening, you can call the shortcut script which does the same thing, `shortcuts/save-top-tracks.sh`.
 
+The first time calling any of these, it will authorize you through a website, and you'll have to paste the redirected URL into the console. 
+
 ```bash
 python3 top-tracks-for-user.py echo ${SPOTIPY_CLIENT_ID} >> top-tracks.md
 ```
