@@ -8,7 +8,7 @@ Quickly interact with the Spotfiy API, using a Python wrapper called [Spotipy](h
 
 If you don't have one, you can get a client id and secret key from Spotify through their [registration process](https://developer.spotify.com/my-applications/) for access to the API calls.
 
-Create a file in your source root called `.env` and paste in the below with the real values:
+Set your environment variables with the values. One way would be to put them in a .env file and run `source .env`:
 
 ```bash
 export SPOTIPY_CLIENT_ID='your-spotify-client-id'
@@ -18,7 +18,7 @@ export SPOTIPY_REDIRECT_URI='your-app-redirect-url'
 
 ### 2. Try some API calls with the included Python scripts
 
-Install Python3 if you don't have it, and try these examples of some of the scripts:
+Install Python3 if you don't have it, as well as these libraries, `pip install spotipy simplejson`, and try these examples of some of the scripts:
 
 #### Save your top tracks to a file (short, medium and long term)
 
