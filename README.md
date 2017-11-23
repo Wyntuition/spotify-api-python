@@ -39,3 +39,7 @@ python3 top-tracks-for-user.py echo ${SPOTIPY_CLIENT_ID} >> top-tracks.md
 ```bash
 ./shortcuts/save-playlist-tracks.sh
 ```
+
+#### Authorization code flow vs client credentials flow
+
+To access personal data, you should use authorization code flow (used in most of the scripts unless labels 'clientflow'), as client credentials flow doesn't support authorization but has a higher rate limit.
