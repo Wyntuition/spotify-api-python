@@ -1,5 +1,7 @@
 # Spotify API with Spotipy
 
+Quickly interact with the Spotfiy API, using a Python wrapper called [Spotipy](https://github.com/plamere/spotipy). This sample includes backing up a playlist, and getting your own top artists & tracks over the short, mid and long term.
+
 ## Setup
 
 ### 1. Setup auth in environment variables
